@@ -7,14 +7,12 @@ import ChannelsComponent from '../pages/ChannelsComponent'
 
 const RouteComponent = () => {
   return (
-    <div>
-      <Switch>
-        <Route path="/" component={DashboardComponent} exact />
-        <Route path="/games" component={GamesComponent} />
-        <Route path="/channels" component={ChannelsComponent} />
-        <Route component={ErrorComponent} />
-      </Switch>
-    </div>
+    <Switch>
+      <Route path="/" component={DashboardComponent} exact />
+      <Route path="/games" component={GamesComponent} />
+      <Route path="/channels" component={ChannelsComponent} />
+      <Route component={ErrorComponent} />
+    </Switch>
   )
 }
 
