@@ -1,5 +1,5 @@
 import React from 'react'
-import { Message, Button, Icon } from 'semantic-ui-react'
+import { Message } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom';
 
 const ErrorComponent = (props) => {
